@@ -1,0 +1,65 @@
+body{
+	margin:0em;
+	background-color:#C4D8E2;
+}
+
+#header{
+	padding:0.3em 0.5em 0.25em 0.5em;
+	background-color:#C4D8E2;
+	height:5.5em;
+}
+
+#logo{
+	float:left;
+	width:6.01em;
+	height:5.5em;
+}
+
+#account_title{
+	color:royalblue;
+	text-decoration:underline;
+	font-size:1.5em;
+	font-family:Georgia;
+}
+
+#skyline{
+	display:block;
+	margin:auto;
+}
+
+#center{
+	padding:0.5em 0.5em 0.5em 0.5em;
+	background-color:#C4D8E2;
+}
+
+#party_table{
+	font-size:0.85em;
+	border-collapse: collapse;
+}
+
+span{
+	color:royalblue;
+	font-weight:bold;
+}
+
+p{
+	float:left;
+	margin:0em 0em 0em 0.5em;
+}
+
+#delete_form{
+	margin-bottom:-0.6em;
+}
+
+form{
+	margin-bottom:0em;
+}
+
+input[type=submit] {
+	font-weight:bold;
+	color:royalblue;
+}
+
+.hidden{
+	display:none;
+}

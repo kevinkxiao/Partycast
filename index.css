@@ -1,0 +1,91 @@
+body{
+	margin:0em;
+	background-color:#C4D8E2;
+}
+
+div{
+	padding:0.5em 0.5em 0.5em 0.5em;
+}
+
+.form_container{
+	background-color:#D8D8D8;
+}
+
+p{
+	color:royalblue;
+}
+
+#title{
+	font-size:2.7em;
+	font-family:Georgia;
+	font-weight:bold;
+	margin-top:-0.3em;
+	margin-bottom:-0.15em;
+}
+
+#logo{
+	position:absolute;
+	top:0.2em;
+	left:14em;
+	width:3em;
+	height:2.6em;
+}
+
+#motto{
+	color:royalblue;
+	font-size:1.03em;
+	font-style:italic;
+	margin-top:-0.5em;
+	margin-bottom:0em;
+}
+
+.form_title{
+	font-size:1.2em;
+	font-family:Georgia;
+	font-weight:bold;
+	margin:0em;
+}
+
+input[type=submit] {
+	font-weight:bold;
+	color:royalblue;
+	margin-bottom:0.2em;
+}
+
+#skyline{
+	display:block;
+	margin:auto;
+}
+
+#marketing{
+	margin-bottom:-0.5em;
+}
+
+ul{
+	margin-bottom:2em;
+}
+
+li{
+	margin-left:-1em;
+}
+
+a{
+	font-size:0.8em;
+	color:royalblue;
+}
+
+#signup_count{
+	margin:0em;
+	font-size:0.75em;
+	color:black;
+}
+
+#disclaimer{
+	margin-bottom:1em;
+}
+
+.closing{
+	text-align: center;
+	margin: 0.2em 0em 0em 0em;
+	font-size:0.5em;
+}

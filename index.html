@@ -1,0 +1,80 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<title>partycast</title>
+		<link type="text/css" rel="stylesheet" href="index.css"/>
+		<script src="phonegap.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="parse-1.2.19.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<p id="title">partycast</p>
+			<img src="logo.png" id="logo"/>
+		</div>
+		<div class="form_container">
+			<p id="motto">Host pregames, find parties, make friends</p>
+			<br>
+			<table><tbody>
+				<p class="form_title">Login</p>
+				<form method="post" id="login_form">
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="user" id="user" value="@columbia.edu"></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="password" id="password"></td>
+					</tr>
+					<tr><td colspan="2"><input type="submit" value="Login"></td></tr>
+				</form>
+			</tbody></table>
+			<a href="#" onclick="reset_password()">Forgot your password?</a>
+		</div>
+		<img src="skyline.png" id="skyline"/>
+		<div class="form_container">
+			<p class="form_title" id="marketing">Why Partycast?</p>
+			<ul>
+				<li>We are uniquely made for Columbia's campus</li>
+				<li>RAs are unable to see your posted parties</li>
+				<li>We publish official Columbia Fraternity parties and rush events</li>
+				<li>Other dorms and fraternities coming soon...</li>
+			</ul>
+			<table><tbody>
+				<p class="form_title">Sign up</p>
+				<p id="signup_count">200+ of your peers have already signed up</p>
+				<form method="post" id="signup_form">
+					<tr>
+						<td>First name:</td>
+						<td><input type="text" name="first" id="first"></td>
+					</tr>
+					<tr>
+						<td>Last name:</td>
+						<td><input type="text" name="last" id="last"></td>
+					</tr>
+					<tr>
+						<td>Columbia Email:</td>
+						<td><input type="text" name="email" id="email" value="@columbia.edu"></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="password" id="signup_password"></td>
+					</tr>
+					<tr>
+						<td>Gender:</td>
+						<td>
+							<select name="gender" id="gender">
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr><td colspan="2"><input type="submit" value="Sign up"></td></tr>
+				</form>
+			</tbody></table>
+		</div>
+		<p class="closing" id="disclaimer">Partycast believes in creating a more dynamic and close-knit community at Columbia. Drinking under age 21 is illegal in the US, and we are firmly against underage drinking. Please be responsible</p>
+		<p class="closing">Partycast is in no way affiliated with Columbia University<br>All rights reserved</p>
+	</body>
+</html>

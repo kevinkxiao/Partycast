@@ -1,0 +1,142 @@
+/*#carmanCount{
+	position:relative;
+	left:40px;
+	top:200px;
+	margin:0em;
+}
+
+#furnaldCount{
+	position:relative;
+	left:30px;
+	top:90px;
+	margin:0em;
+}*/
+
+body{
+	background-color:#C4D8E2;
+	padding:0em;
+	border:0em;
+	margin:0em;
+}
+
+#toolbar{
+	height:1.25em;
+	background-color:#3759C0;
+}
+
+button{
+	float:right;
+	color:royalblue;
+	padding:0em 0.5em 0em 0.5em;
+	font-size: 0.7em;
+	margin:0em 0.2em 0em 0em;
+}
+
+#header{
+	padding:0.3em 0.5em 0.3em 0.5em;
+}
+
+p{
+	color:royalblue;
+}
+
+#title{
+	font-size:3.3em;
+	font-family:Georgia;
+	font-weight: bold;
+	margin-top:-0.3em;
+	margin-bottom:0em;
+}
+
+#motto{
+	font-style:italic;
+	margin-left:0.5em;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+#logo{
+	position:absolute;
+	top:1.45em;
+	left:17em;
+	width:3em;
+	height:2.6em;
+}
+
+
+#map_container{
+	background-color:#D8D8D8;
+	padding-bottom: 0.5em;
+}
+
+#campus_img{
+	width:100%;
+}
+
+#count_table{
+	margin:auto;
+	margin-top:0.25em;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+strong{
+	color:royalblue;
+}
+
+.subtitle{
+	color:royalblue;
+	font-size:1.2em;
+	font-family:Georgia;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-bottom:0em;
+}
+
+#form_container{
+	padding-bottom:0.5em;
+}
+
+#form_table{
+	border-spacing:0em;
+}
+
+input[type=submit] {
+	font-weight:bold;
+	color:royalblue;
+}
+
+#ban_notice{
+	font-size:0.7em;
+	text-align:center;
+	margin: 0em 0em 1em 0em;
+}
+
+/*#news_feed{
+	background-color:#D8D8D8;
+	padding:0.5em 0em 1.5em 0em;
+}
+
+#party_table{
+	font-size:0.85em;
+	margin-top:0.2em;
+}*/
+
+#footer{
+	background-color:#D8D8D8;
+	padding-top: 0.25em;
+}
+
+#disclaimer{
+	margin-bottom:1em;
+}
+
+.closing{
+	text-align: center;
+	margin: 0.2em 0em 0em 0em;
+	font-size:0.5em;
+}
+
+.hidden{
+	display:none;
+}

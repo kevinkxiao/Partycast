@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>partycast</title>
+		<link type="text/css" rel="stylesheet" href="home.css"/>
+		<script src="phonegap.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="parse-1.2.19.min.js"></script>
+		<script type="text/javascript" src="home.js"></script>
+	</head>
+	<body>
+		<div id="toolbar">
+			<button id="log_out">Log out</button>
+			<button id="account">Account</button>
+		</div>
+		<div id="header">
+			<p id="title">partycast</p>
+			<img src="logo.png" id="logo"/>
+		</div>
+		<div id="map_container">
+			<p id="motto">Host pregames, find parties, make friends</p>
+			<map name="map">
+				<area href="carman.html" shape="rect" coords="40,250,145,295" alt="Carman" title="Carman"/>
+				<area href="john_jay.html" shape="rect" coords="320,240,440,295" alt="John_Jay" title="John_Jay"/>
+				<area href="furnald.html" shape="rect" coords="30,90,70,170" alt="Furnald" title="Furnald"/>
+				<area href="mcbain.html" shape="rect" coords="20,455,100,520" alt="McBain" title="McBain"/>
+				<area href="east_campus.html" shape="rect" coords="350,450,465,600" alt="EC" title="EC"/>
+				<area href="ruggles.html" shape="rect" coords="340,320,390,380" alt="Ruggles" title="Ruggles"/>
+				<area href="beta.html" shape="rect" coords="105,320,130,370" alt="Beta" title="Beta"/>
+			</map><img src="columbia_campus.png" usemap="#map" id="campus_img"/>
+			<table border="1" id="count_table">
+				<tr id="dorm_row"></tr>
+				<tr id="count_row"></tr>
+			</table>
+		</div>
+		<!-- <div id="news_feed">
+			<table border="1" id="party_table"><span class="subtitle">Upcoming Parties</span></table>
+		</div> -->
+		<div id="form_container">
+			<p class="subtitle">Share your own party!</p>
+			<table id="form_table"><tbody>
+				<form method="post" id="party_form">
+					<tr>
+						<td>Party name:</td>
+						<td><input type="text" name="name" id="party_name"></td>
+					</tr>
+					<tr>
+						<td>Date:</td>
+						<td><input type="date" name="date" id="date_picker"></td>
+					</tr>
+					<tr>
+						<td>Time:</td>
+						<td><input type="text" name="time" id="time"></td>
+					</tr>
+					<tr>
+						<td>Dorm:</td>
+						<td>
+							<select name="dorm">
+								<option value="Carman">Carman</option>
+								<option value="John Jay">John Jay</option>
+								<option value="Furnald">Furnald</option>
+								<option value="McBain">McBain</option>
+								<option value="East Campus">East Campus</option>
+								<option value="Ruggles">Ruggles</option>
+								<option value="Beta">Beta House</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Room number:</td>
+						<td><input type="text" name="room"></td>
+					</tr>
+					<tr>
+						<td>Expected # of people:</td>
+						<td><input type="text" name="people" id="people"></td>
+					</tr>
+					<tr>
+						<td>Description:</td>
+						<td><textarea name="descrip" id="descrip"></textarea></td>
+					</tr>
+					<tr><td colspan="2"><input type="submit" value="Submit"></td></tr>
+				</form>
+			</tbody></table>
+			<p id="ban_notice">RAs can't see parties because their unis are filtered out during sign up</p>
+		</div>
+		<!-- <div id="news_feed">
+			<table border="1" id="party_table"><span class="subtitle">Upcoming Parties</span></table>
+		</div> -->
+		<div id="footer">
+			<p class="closing" id="disclaimer">Partycast believes in creating a more dynamic and close-knit community at Columbia. Drinking under age 21 is illegal in the US, and we are firmly against underage drinking. Please be responsible</p>
+			<p class="closing">Partycast is in no way affiliated with Columbia University<br>All rights reserved</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+	margin:0em;
+	background-color:#D8D8D8;
+	/*background:linear-gradient(to right, rgba(216,216,216,1), rgba(216,216,216,.5));*/
+}
+
+#body_container{
+	border-radius:1em;
+	padding:0.8em 0.5em 0.8em 0.5em;
+	background-color:#C4D8E2;
+	/*background:linear-gradient(to right, rgba(196,216,226,.7), rgba(196,216,226,.2));*/
+}
+
+#title{
+	color:royalblue;
+	font-size:2.5em;
+	font-family:Georgia;
+	margin-top:-0.3em;
+	margin-bottom: 0.1em;
+}
+
+#logo{
+	position:absolute;
+	top:0.4em;
+	left:16.7em;
+	width:2.64em;
+	height:2.4em;
+}
+
+#party_table{
+	font-size:0.85em;
+	border-collapse: collapse;
+}
+
+#skyline{
+	display:block;
+	margin:auto;
+}
+
+#disclaimer{
+	color:royalblue;
+	font-size:0.5em;
+	text-align:center;
+}
+
+form{
+	margin-top:0.1em;
+	margin-bottom:-0.2em;
+}
+
+input[type=submit] {
+	font-weight:bold;
+	color:royalblue;
+}
+
+.hidden{
+	display:none;
+}

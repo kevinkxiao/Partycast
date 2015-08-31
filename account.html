@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>My Account</title>
+		<link type="text/css" rel="stylesheet" href="account.css"/>
+		<script src="phonegap.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="parse-1.2.19.min.js"></script>
+		<script type="text/javascript" src="account.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<img src="logo.png" id="logo"/>
+			<p id="account_details"><strong id="account_title">Account</strong><br></p>
+		</div>
+		<div id="center">
+			<table border="1" id="party_table"><span>Your Current Parties:</span></table>
+			<br>
+			<table id="delete_form"><tbody>
+				<span>Delete a Party:</span>
+				<form method="post" id="delete_party">
+					<tr>
+						<td>Party Name:</td>
+						<td><input type="text" name="name" id="name"></td>
+					</tr>
+					<tr><td colspan="2"><input type="submit" value="Delete"></td></tr>
+				</form>
+			</tbody></table>
+			<img src="skyline.png" id="skyline"/>
+			<form id="home" action="home.html">
+    			<input type="submit" value="Back to Home">
+			</form>
+		</div>
+	</body>
+</html>
